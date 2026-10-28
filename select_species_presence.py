@@ -38,7 +38,7 @@ if capa.isValid():
     for objeto in objetos_seleccionados:
         capa.changeAttributeValue(objeto.id(), indice_campo, nuevo_valor)
     
-#INVERTIR SELECCION
+# INVERT THE SELECTION
 
 # Locate the layer
 capa = QgsProject.instance().mapLayersByName('utm10Herpetos1')[0]
