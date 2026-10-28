@@ -6,9 +6,9 @@ Este script automatiza la identificación de cuadrículas UTM de 10 × 10 km con
 
 Mediante herramientas de selección por expresión y selección espacial de QGIS, el script identifica las cuadrículas que intersectan con los registros puntuales de presencia de la especie seleccionada y asigna valores binarios a las cuadrículas para distinguir entre presencias y pseudoausencias espaciales.
 
-## Example output
+## Ejemplo de salida
 
-The map below shows the 10 × 10 km UTM grid classified according to the spatial intersection with species presence records.
+El mapa muestra una cuadrícula 10 × 10 km clasificada acorde a la intersección espacial con presencias puntuales de una especie.
 
 ![Example of species presence and pseudoabsence classification](images/UTM_PELPER.png)
 
