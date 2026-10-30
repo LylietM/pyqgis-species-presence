@@ -7,7 +7,7 @@ presen_herpetos = QgsProject.instance().mapLayersByName('herpetos_presencia')[0]
 # Create a selection expression
 presen_herpetos.selectByExpression('\"ID\"=\'PELPER\'')
 
-processing.run("native:selectbylocation", {'INPUT':'C:/BBDD_Confaunex/HERPETOS/Cartografia/utm10Herpetos1.shp','PREDICATE':[0],
+processing.run("native:selectbylocation", {'INPUT':'C:/BBDD/HERPETOS/Cartografia/utm10Herpetos1.shp','PREDICATE':[0],
 'INTERSECT':QgsProcessingFeatureSourceDefinition('C:/Cartografia/Herpetos/herpetos_presencia.shp',
 selectedFeaturesOnly=True, featureLimit=-1, geometryCheck=QgsFeatureRequest.GeometryAbortOnInvalid),'METHOD':0})
 
